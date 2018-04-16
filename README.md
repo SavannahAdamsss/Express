@@ -1,6 +1,28 @@
 # Express
 Learning Express:
 
+Beginnings:
+
+
+//Create repo
+//Cd into repo
+//Npm init 
+//Git init
+//Copy and paste the code below (same every time)
+//Npm install express
+//Node index.js
+     //(After node App is listening on 3000)
+     //app.listen(3000 || process.env.PORT, () => console.log('Example app listening on port 3000!'));
+
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(3000 || process.env.PORT, () => console.log('Example app listening on port 3000!'));
+
+
+
 Simple form:
 
 const express = require('express')
