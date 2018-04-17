@@ -8,6 +8,7 @@ Beginnings:
 //Cd into repo
 //Npm init 
 //Git init
+//Npm install cors
 //Copy and paste the code below (same every time)
 //Npm install express
 //Node index.js
