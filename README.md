@@ -24,6 +24,19 @@ app.listen(3000 || process.env.PORT, () => console.log('Example app listening on
 
 
 
+* Then add one of the following (adding a --save) flag:
+$ npm install pg $ npm install sqlite3 $ npm install mysql $ npm install mysql2 $ npm install mariasql $ npm install strong-oracle $ npm install oracle $ npm install mssql
+
+* Starting an express server:
+
+Cd into root and npm init
+set entry point to be your main js file
+“npm install express - - save”
+(if cors is needed) “npm install cors - - save”
+If it is going to be deployed you use: “let PORT = process.env.PORT || 3000;” AND “app.listen(PORT);”
+
+
+
 Simple form:
 
 const express = require('express')
